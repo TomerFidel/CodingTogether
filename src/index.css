@@ -21,6 +21,14 @@ code {
   padding: 0;
 }
 
+.form {
+  width:25vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 .box {
   padding: 10px;
   border: 1px solid #ddd;
@@ -102,4 +110,9 @@ code {
   border-color: #3b49df;
   box-shadow: 1px 1px 0 #3b49df;
   outline: none;
+}
+
+.error {
+  font-size: 12px;
+  color: red;
 }
