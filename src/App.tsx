@@ -1,8 +1,11 @@
 import React from 'react';
+import AddTodo from "./components/AddTodo/AddTodo";
 
 function App() {
     return (
-        <div className="App">App.tsx</div>
+        <div className="App">
+            <AddTodo />
+        </div>
     );
 }
 

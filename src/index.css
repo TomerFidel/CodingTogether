@@ -103,3 +103,25 @@ code {
   box-shadow: 1px 1px 0 #3b49df;
   outline: none;
 }
+
+.addTodoBox {
+  width: 400px;
+  margin: 10px auto;
+}
+
+.addTodoTitle {
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
